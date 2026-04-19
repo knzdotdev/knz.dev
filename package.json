@@ -1,17 +1,15 @@
 {
   "name": "knz.dev",
-  "version": "0.1.0",
-  "description": "knz.dev -  data repository",
+  "version": "0.2.0",
+  "description": "knz.dev — personal site",
   "type": "module",
+  "private": true,
   "scripts": {
-    "build": "bun run scripts/minify.js",
-    "watch": "bun run scripts/minify.js --watch"
+    "build": "bun run scripts/minify.js"
   },
-  "author": "knz.dev",
+  "author": "knzdotdev",
   "license": "MIT",
-  "dependencies": {
-    "html-minifier": "^4.0.0",
-    "chokidar": "^3.5.3",
-    "fs-extra": "^11.2.0"
+  "devDependencies": {
+    "html-minifier-terser": "^7.2.0"
   }
-} 
+}
