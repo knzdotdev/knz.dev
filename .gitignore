@@ -2,6 +2,9 @@
 build/
 out/
 
+# Local project documentation (kept out of the repo)
+docs/
+
 # Dependencies
 node_modules/
 .npm
