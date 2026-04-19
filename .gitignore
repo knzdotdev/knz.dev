@@ -1,0 +1,53 @@
+# Build output
+build/
+out/
+
+# Dependencies
+node_modules/
+.npm
+package-lock.json
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+
+# Environment variables
+.env*
+!.env.example
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and debugging
+logs/
+*.log
+npm-debug.log*
+
+# Optional eslint cache
+.eslintcache
+
+# Temporary files
+*.swp
+*.swo
+*~
+.temp/
+*.tmp
+*.bak
+
+# Coverage directory used by tools like istanbul
+coverage/ 

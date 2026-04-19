@@ -1,0 +1,17 @@
+{
+  "name": "knz.dev",
+  "version": "0.1.0",
+  "description": "knz.dev -  data repository",
+  "type": "module",
+  "scripts": {
+    "build": "bun run scripts/minify.js",
+    "watch": "bun run scripts/minify.js --watch"
+  },
+  "author": "knz.dev",
+  "license": "MIT",
+  "dependencies": {
+    "html-minifier": "^4.0.0",
+    "chokidar": "^3.5.3",
+    "fs-extra": "^11.2.0"
+  }
+} 
