@@ -2,14 +2,14 @@ name: Minify HTML
 
 on:
   push:
-    branches: [ production ]
+    branches: [ main ]
     paths:
       - 'index.html'
       - 'scripts/**'
       - 'package.json'
       - '.github/workflows/**'
   pull_request:
-    branches: [ production ]
+    branches: [ main ]
     paths:
       - 'index.html'
       - 'scripts/**'
